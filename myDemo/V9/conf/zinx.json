@@ -1,0 +1,9 @@
+{
+  "Name": "V0.9 DemoApp",
+  "Host": "127.0.0.1",
+  "TcpPort": 7777,
+  "MaxConn": 3,
+  "MaxPackageSize": 2048,
+  "WorkPoolSize": 10,
+  "MaxWorkerTaskLen": 1024
+}
