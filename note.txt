@@ -1,0 +1,18 @@
+比较，排序
+    可排序的一定是可比较的，反之不成立，即可比较的不一定是可排序的，例如struct类型就是可比较的，但不可排序。
+        1.可排序的数据类型有三种，Integer，Floating-point，和String
+        2.可比较的数据类型除了上述三种外，还有Boolean，Complex，Pointer，Channel，Interface，Struct，和Array
+        3.不可比较的数据类型包括，Slice, Map, 和Function
+赋值,比较
+    两个变量可比较，那么他们必然是可赋值的，要么左边变量可赋值给右边变量，要么右边变量可赋值给左边变量;反之则不一定，即可赋值的变量，不一定可比较，比如前面提到的map类型变量。
+
+
+
+
+比较
+       可比较：  struct，基本类型,interface，channel，pointer，interface，array
+       不可比较： slice，map，function
+   struct的比较：
+        定义：Struct values are comparable if all their fields are comparable. Two struct values are equal if their corresponding non-blank fields are equal.
+        1.相同类型可比较，不同类型不可
+        2.仅当struct的所有字段都可比较时，struct可比较

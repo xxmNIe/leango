@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9e94fac-2018-4d15-bece-de74f39d9d0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/tree/le872.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/tree/le872.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/apitest/os/pathtest.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/apitest/os/pathtest.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gopj/filecloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -75,7 +75,7 @@
       <recent name="$PROJECT_DIR$/leetcode/greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build leango/leetcode/second">
+  <component name="RunManager" selected="Go Build.go build leango/leetcode/matrix">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -87,40 +87,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="go build leango/demo/apitest/json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build leango/demo/apitest/os" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leango" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="leango/demo/apitest/json" />
+      <package value="leango/demo/apitest/os" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/demo/apitest/json/jsonse.go" />
+      <filePath value="$PROJECT_DIR$/demo/apitest/os/pathtest.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build leango/leetcode/cp/241 (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build leango/demo/language_compare" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leango" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="leango/leetcode/cp/241" />
+      <kind value="PACKAGE" />
+      <package value="leango/demo/language_compare" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/leetcode/cp/241/5764.go" />
+      <filePath value="$PROJECT_DIR$/demo/language_compare/struct_compare.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build leango/leetcode/day (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leango" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="leango/leetcode/day" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/leetcode/day/le1190.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build leango/leetcode/day" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build leango/leetcode/day (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leango" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="leango/leetcode/day" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/leetcode/day/le461.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/day/le477.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build leango/leetcode/matrix" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leango" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leango/leetcode/matrix" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/leetcode/matrix/le304.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build leango/leetcode/second" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -133,19 +133,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build leango/leetcode/cp/241 (1)" />
-      <item itemvalue="Go Build.go build leango/demo/apitest/json" />
-      <item itemvalue="Go Build.go build leango/leetcode/day (1)" />
-      <item itemvalue="Go Build.go build leango/leetcode/day" />
       <item itemvalue="Go Build.go build leango/leetcode/second" />
+      <item itemvalue="Go Build.go build leango/demo/apitest/os" />
+      <item itemvalue="Go Build.go build leango/demo/language_compare" />
+      <item itemvalue="Go Build.go build leango/leetcode/day (2)" />
+      <item itemvalue="Go Build.go build leango/leetcode/matrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leango/leetcode/matrix" />
+        <item itemvalue="Go Build.go build leango/demo/language_compare" />
+        <item itemvalue="Go Build.go build leango/leetcode/day (2)" />
+        <item itemvalue="Go Build.go build leango/demo/apitest/os" />
         <item itemvalue="Go Build.go build leango/leetcode/second" />
-        <item itemvalue="Go Build.go build leango/leetcode/day" />
-        <item itemvalue="Go Build.go build leango/leetcode/day (1)" />
-        <item itemvalue="Go Build.go build leango/demo/apitest/json" />
-        <item itemvalue="Go Build.go build leango/leetcode/cp/241 (1)" />
       </list>
     </recent_temporary>
   </component>
