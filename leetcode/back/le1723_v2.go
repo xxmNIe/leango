@@ -24,19 +24,19 @@ func minimumTimeRequired(jobs []int, k int) int {
 		}
 		if used <k {
 			sum[used] =jobs[u]
-			walk(u+1,max(sum[used],maxd),used+1)
+			walk(u+1,max2(sum[used],maxd),used+1)
 			sum[used] =0
 		}
 		for i:=0;i<used;i++ {
 			sum[i]+= jobs[u]
-			walk(u+1,max(sum[i],maxd),used)
+			walk(u+1,max2(sum[i],maxd),used)
 			sum[i]-=jobs[u]
 		}
 	}
 	walk(0,0,0)
 	return ans
 }
-func max(x,y int ) int{
+func max2(x,y int ) int{
 	if x >y {
 		return x
 	}

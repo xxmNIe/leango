@@ -16,3 +16,15 @@
         定义：Struct values are comparable if all their fields are comparable. Two struct values are equal if their corresponding non-blank fields are equal.
         1.相同类型可比较，不同类型不可
         2.仅当struct的所有字段都可比较时，struct可比较
+
+
+------------------
+nil只能赋值给指针、chan、func、interface、map、或slice、类型的变量。
+
+init函数:
+        init()函数是用于程序执行前做包的初始化的函数，比如初始化包里的变量等；
+        一个包可以出现多个init()函数，一个源文件也可以包含多个init()函数；
+        同一个包中多个init()函数的执行顺序没有明确的定义，但是不同包的init函数是根据包导入的依赖关系决定的；
+        init函数在代码中不能被显示调用、不能被引用（赋值给函数变量），否则出现编译失败；
+        一个包被引用多次，如A import B，C import B，A import C，B被引用多次，但B包只会初始化一次；
+        引入包，不可出现死循环。即A import B，B import A，这种情况下编译失败；

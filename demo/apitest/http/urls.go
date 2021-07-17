@@ -1,17 +1,20 @@
 package main
 
-import (
-	"fmt"
-	"net/url"
-)
+import "fmt"
 
 func main() {
-	maps := url.Values{
-		"name":{"a","b"},
-		"age":{"c"},
+
+	m :=map[string]string {"a":"b","c":"d"}
+	for d := range m {
+		fmt.Println(d)
 	}
 
-	a :=maps.Encode()
-
-	fmt.Println(a)
+	//maps := url.Values{
+	//	"name":{"a","b"},
+	//	"age":{"c"},
+	//}
+	//
+	//a :=maps.Encode()
+	//
+	//fmt.Println(a)
 }
