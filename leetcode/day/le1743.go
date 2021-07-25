@@ -53,7 +53,7 @@ func restoreArray(adjacentPairs [][]int) []int {
 		adj := mp[ans[i-1]]
 		if ans[i-2] == adj[0] {
 			ans[i]  = adj[1]
-			
+
 		}else {
 			ans[i] = adj[0]
 		}
