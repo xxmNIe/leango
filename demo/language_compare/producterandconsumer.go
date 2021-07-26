@@ -18,6 +18,7 @@ func main() {
 	flag.IntVar(&consumers,"c",5,"消费者数量")
 	flag.IntVar(&producter,"p",5,"生产者数量")
 	flag.DurationVar(&du,"t",5,"运行时间")
+	flag.Parse()
 	buff := make(chan interface{},buffSize)
 	var wg sync.WaitGroup
 	final := time.After(time.Second*du)

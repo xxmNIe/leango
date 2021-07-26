@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9e94fac-2018-4d15-bece-de74f39d9d0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/language_compare/producterandconsumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/language_compare/producterandconsumer.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
       <recent name="$PROJECT_DIR$/demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build leango/demo/language_compare">
+  <component name="RunManager" selected="Go Build.go build leango/demo/language_compare (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,13 +107,13 @@
       <filePath value="$PROJECT_DIR$/demo/apitest/chantest.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build leango/demo/apitest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build leango/demo/language_compare (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leango" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="leango/demo/apitest" />
+      <package value="leango/demo/language_compare" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/demo/apitest/mapasfe.go" />
+      <filePath value="$PROJECT_DIR$/demo/language_compare/serverclient.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build leango/demo/language_compare" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -134,19 +135,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build leango/demo/apitest" />
       <item itemvalue="Go Build.go build leango/demo/apitest (1)" />
       <item itemvalue="Go Build.go build leango/demo/apitest (2)" />
       <item itemvalue="Go Build.go build leango/leetcode/day" />
       <item itemvalue="Go Build.go build leango/demo/language_compare" />
+      <item itemvalue="Go Build.go build leango/demo/language_compare (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leango/demo/language_compare (1)" />
         <item itemvalue="Go Build.go build leango/demo/language_compare" />
         <item itemvalue="Go Build.go build leango/leetcode/day" />
         <item itemvalue="Go Build.go build leango/demo/apitest (2)" />
         <item itemvalue="Go Build.go build leango/demo/apitest (1)" />
-        <item itemvalue="Go Build.go build leango/demo/apitest" />
       </list>
     </recent_temporary>
   </component>
