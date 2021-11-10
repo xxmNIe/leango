@@ -1,0 +1,7 @@
+mr-tmp
+mr-*[^go]
+*.so
+
+mrsequential
+mrworker
+mrmaster
