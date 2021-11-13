@@ -119,7 +119,8 @@ func (rl *RaftLog) lastTermIndex(beginIndex int, term int) int {
 
 /*
 	From now on, the methods are locked.
-	The methods above can compose, by some outer caller, other form of methods, locking taken care of by the outer caller
+	The methods above can comp
+	ose, by some outer caller, other form of methods, locking taken care of by the outer caller
 */
 
 func (rl *RaftLog) ApplyWorker() {
