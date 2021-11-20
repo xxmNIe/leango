@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9e94fac-2018-4d15-bece-de74f39d9d0e" name="Default Changelist" comment="" />
+    <list default="true" id="f9e94fac-2018-4d15-bece-de74f39d9d0e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIT-6.824/src/mr/master.go" beforeDir="false" afterPath="$PROJECT_DIR$/MIT-6.824/src/mr/master.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIT-6.824/src/mr/worker.go" beforeDir="false" afterPath="$PROJECT_DIR$/MIT-6.824/src/mr/worker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIT-6.824/src/raft/raft_log.go" beforeDir="false" afterPath="$PROJECT_DIR$/MIT-6.824/src/raft/raft_log.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker_project/py/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/docker_project/py/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker_project/py/router/pytest.go" beforeDir="false" afterPath="$PROJECT_DIR$/docker_project/py/router/pytest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/godemo/selectdemo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sometest/orm-test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sometest/valuetest.go" beforeDir="false" afterPath="$PROJECT_DIR$/sometest/valuetest.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,13 +63,14 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gopj" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gopj/7days-golang/gee-cache/day5-multi-nodes" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -137,6 +151,15 @@
       <item itemvalue="Go Build.go build leango/demo/language_compare" />
       <item itemvalue="Go Build.go build leango/demo/language_compare (1)" />
       <item itemvalue="Go Build.go build leango/demo" />
+      <item itemvalue="Shell Script.build wc" />
+      <item itemvalue="Go Test.go test lab2" />
+      <item itemvalue="Go Build.go run mrmaster" />
+      <item itemvalue="Go Build.go run mrworker" />
+      <item itemvalue="Go Test.TestFailAgree2B in raft" />
+      <item itemvalue="Go Test.TestBasicAgree2B in raft" />
+      <item itemvalue="Go Test.TestReElection2A in raft" />
+      <item itemvalue="Go Test.TestFailNoAgree2B in raft" />
+      <item itemvalue="Go Test.TestInitialElection2A in raft" />
     </list>
     <recent_temporary>
       <list>
