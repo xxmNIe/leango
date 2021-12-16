@@ -11,7 +11,9 @@ go build   -o server mutitest.go
 sleep 2
 
 curl "http://localhost:9999/api?key=Tom" &
+sleep 0.5
 curl "http://localhost:9999/api?key=Tom" &
+sleep 0.5
 curl "http://localhost:9999/api?key=Tom" &
 
-sleep 3
+sleep 5

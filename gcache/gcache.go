@@ -2,6 +2,7 @@ package gcache
 
 import (
 	"fmt"
+	"github.com/leango/gcache/pb"
 	"log"
 	"sync"
 
@@ -23,7 +24,7 @@ type Group struct {
 	//local getter
 	getter    Getter
 	mainCache cache
-	//
+	//get from peer
 	peers PeerPicker
 
 	// use int one call
@@ -79,7 +80,7 @@ func (g *Group) getLocally(key string) (ByteView, error) {
 	if err != nil {
 		return ByteView{}, nil
 	}
-	//这里必须要，不然共享[]byte
+	//这里必须要，不然有风险共享[]byte
 	value := ByteView{b: cloneBytes(bytes)}
 	g.populateCache(key, value)
 	return value, nil
@@ -116,9 +117,22 @@ func (g *Group) load(key string) (view ByteView, err error) {
 }
 
 func (g *Group) getFromPeer(peer PeerGetter, key string) (ByteView, error) {
-	bytes, err := peer.Get(g.name, key)
+	//bytes, err := peer.Get(g.name, key)
+	//if err != nil {
+	//	return ByteView{}, err
+	//}
+	//return ByteView{b: bytes}, nil
+
+	req := &pb.Request{
+		Group: g.name,
+		Key: key,
+	}
+	res := &pb.Response{}
+
+	err := peer.Get(req,res)
 	if err != nil {
 		return ByteView{}, err
 	}
-	return ByteView{b: bytes}, nil
+	return ByteView{b: res.Value}, nil
+
 }

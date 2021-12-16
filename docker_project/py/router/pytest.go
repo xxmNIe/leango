@@ -55,7 +55,7 @@ func Savepy(r *gin.Context) {
 	filepath := filepath.Join(dir, req_parm.Name)
 	msg, err := invoke(filepath)
 	if err != nil {
-		res.Code = common.Status_file_err
+		res.Code = common.Status_codeExec_err
 	}
 	res.Msg = msg
 	//if res.Code == 3 {
